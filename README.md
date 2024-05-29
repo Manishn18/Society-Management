@@ -128,9 +128,11 @@ Society Management System (SMS) contains <ins>7 MySQL tables</ins> :-
 To get started with the Society Management System (SMS) project, follow these steps to set up the development environment and run the application locally.
 ### Prerequisites
 Ensure you have the following software installed on your system:
+<ul>
 <li><strong><ins>XAMPP or WAMP</ins> :</strong> To create a local server environment.</li>
 <li><strong><ins>Web Browser</ins> :</strong> Any modern web browser (e.g., Chrome, Firefox).</li>
 <li><strong><ins>Text Editor or IDE</ins> :</strong> For editing the source code (e.g., Visual Studio Code, Sublime Text)</li>
+</ul>
 
 ### Installation
 
