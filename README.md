@@ -18,7 +18,7 @@ SMS is a testament to how technology can simplify and streamline the management 
   <li><a href="#getting-started">Getting Started</a></li>
   <li><a href="#usage">Usage</a></li>
   <li><a href="#screenshots">Screenshots</a></li>
-  <li><a href="#Contributing">Contributing</a></li>
+  <li><a href="#contributing">Contributing</a></li>
 </ul>
 
 <h2 id="purpose">Purpose</h2>
@@ -220,6 +220,8 @@ define('DB_DATABASE', 'sms');
 
 <h2 id = "screenshots">Screenshots</h2>
 
+_Following images demonstrate the key functionalties of Society Management Application_ -
+
 #### Homepage
 
 ![Screenshot 2024-05-30 031326](https://github.com/Manishn18/Society-Management/assets/87479740/5cab86cf-0094-4efd-99c6-612999491e43)
@@ -227,6 +229,10 @@ define('DB_DATABASE', 'sms');
 #### Admin Login
 
 ![Screenshot 2024-05-30 031514](https://github.com/Manishn18/Society-Management/assets/87479740/1322dcee-490f-447f-816a-9531c2222f0b)
+
+#### User Login
+
+![Screenshot 2024-05-30 034259](https://github.com/Manishn18/Society-Management/assets/87479740/34117617-fab7-42b1-8f44-f70224aeae36)
 
 #### Forgot Password
 
@@ -240,11 +246,63 @@ define('DB_DATABASE', 'sms');
 
 ![Screenshot 2024-05-30 031959](https://github.com/Manishn18/Society-Management/assets/87479740/fbdaf0e6-c876-4594-86e3-bed8989668c9)
 
-### Change Passwords
+#### Change Passwords
 
 ![Screenshot 2024-05-30 032046](https://github.com/Manishn18/Society-Management/assets/87479740/59bee288-8f78-4f40-95f3-206cfaf4981e)
 
-### Add Flats
+#### Add Flats
 
 ![Screenshot 2024-05-30 032119](https://github.com/Manishn18/Society-Management/assets/87479740/bf3c07d3-b323-438b-aacf-36da132b330e)
 
+#### Manage Flat
+
+![Screenshot 2024-05-30 032537](https://github.com/Manishn18/Society-Management/assets/87479740/52cf81a9-1f2b-4339-9df2-a364f23a4cb5)
+
+#### Add Allotment
+
+![Screenshot 2024-05-30 032715](https://github.com/Manishn18/Society-Management/assets/87479740/cad9a393-6545-449b-b24b-5bc2afcc777e)
+
+#### Add Bills
+
+![Screenshot 2024-05-30 032738](https://github.com/Manishn18/Society-Management/assets/87479740/6040edfa-ccbe-4277-b376-e6605123975d)
+
+![Screenshot 2024-05-30 032801](https://github.com/Manishn18/Society-Management/assets/87479740/ca0d2f15-4140-4c6a-884d-5bf29997b7c2)
+
+#### Unresolved Complain
+
+![Screenshot 2024-05-30 033136](https://github.com/Manishn18/Society-Management/assets/87479740/bf1d40f7-7f86-4123-bf30-59a0e22888ea)
+
+#### View Unresolved Complain
+
+![Screenshot 2024-05-30 033205](https://github.com/Manishn18/Society-Management/assets/87479740/a384b1bc-d423-4ffa-a0af-b3690b6a6406)
+
+#### Add Visitor
+
+![Screenshot 2024-05-30 033215](https://github.com/Manishn18/Society-Management/assets/87479740/8d94c107-361f-469b-a5f5-ba39a2e9188f)
+
+#### Search Allotment
+
+![Screenshot 2024-05-30 033427](https://github.com/Manishn18/Society-Management/assets/87479740/01218b2d-9082-4a2d-99ae-1056534d452c)
+
+#### Search Visitor
+
+![Screenshot 2024-05-30 033432](https://github.com/Manishn18/Society-Management/assets/87479740/85707e7c-77ea-4c09-bda1-56c2cd3bda67)
+
+#### Allotment Reports
+
+![Screenshot 2024-05-30 033619](https://github.com/Manishn18/Society-Management/assets/87479740/4d83c9c6-2679-40bd-8c71-74d25aed8dc3)
+
+#### View Between Dates Report of allotment
+
+![Screenshot 2024-05-30 033730](https://github.com/Manishn18/Society-Management/assets/87479740/647d26f6-f851-4475-868f-272ba3d3873e)
+
+#### Visitor Report
+
+![Screenshot 2024-05-30 033810](https://github.com/Manishn18/Society-Management/assets/87479740/e6f37d5b-4047-498a-9aa6-f545c9fc4912)
+
+#### View Between Dates Reports of Visitor
+
+![Screenshot 2024-05-30 034153](https://github.com/Manishn18/Society-Management/assets/87479740/79c3e872-6448-445a-8fc7-82accb6ff40e)
+
+<h2 id="contributing">Contributing</h2>
+Contributions to Society Management Application are welcome!
