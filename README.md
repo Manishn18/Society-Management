@@ -139,9 +139,9 @@ Ensure you have the following software installed on your system:
 #### Step 1: Clone the Repository
 Clone the repository to your local machine using the following command:
 
-
+```
 git clone https://github.com/yourusername/Society-Management-System.git
-
+```
 
 #### Step 2: Set Up the Local Server
 <li><strong><ins>Open phpMyAdmin</ins>:</strong> Access phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser.</li>
@@ -158,11 +158,12 @@ git clone https://github.com/yourusername/Society-Management-System.git
 <li><strong><ins>Update Database Credentials</ins>:</strong> Ensure the database connection settings match your local server configuration:</li>
 <br />
 
-
+```
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'sms');
+```
 
 #### Step 5: Run the Application
 <li><strong><ins>Start the Local Server</ins>:</strong> Ensure that Apache and MySQL services are running in XAMPP/WAMP.</li>
@@ -173,9 +174,9 @@ define('DB_DATABASE', 'sms');
 #### Step 1: Clone the Repository
 Clone the repository to your local machine using the following command:
 
-
+```
 git clone https://github.com/yourusername/Society-Management-System.git
-
+```
 
 #### Step 2: Set Up the Local Server
 
@@ -201,12 +202,12 @@ git clone https://github.com/yourusername/Society-Management-System.git
 <li><strong><ins>Update Database Credentials</ins>:</strong> Ensure the database connection settings are correct:</li>
 </ul>
 
-
+```
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'sms');
-
+```
 
 ### Running the Application
 
