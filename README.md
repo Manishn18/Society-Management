@@ -17,6 +17,7 @@ SMS is a testament to how technology can simplify and streamline the management 
   <li><a href="#technologies-used">Technologies used</a></li>
   <li><a href="#getting-started">Getting Started</a></li>
   <li><a href="#usage">Usage</a></li>
+  <li><a href="#screenshots">Screenshots</a></li>
   <li><a href="#Contributing">Contributing</a></li>
 </ul>
 
@@ -50,7 +51,7 @@ The Society Management System is a testament to innovative problem-solving and p
 <li><strong><ins> Reports Generation:</ins></strong> Admins can generate reports to view allotments and visitor logs over specific periods.</li>
 </ul>
 
-![Admin2](https://github.com/Manishn18/Society-Management/assets/87479740/4340c74f-25a1-4b1d-aabb-ad12d60e5e31)
+![Admin2](https://github.com/Manishn18/Society-Management/assets/87479740/b964e122-63dd-49f9-be65-419afe45adc4)
 
 ### User :-
 <ul>
@@ -62,12 +63,12 @@ The Society Management System is a testament to innovative problem-solving and p
 <li><strong><ins> Reports:</ins></strong> In this section, user can view how many visitor visit in a flats in particular periods.</li>
 </ul>
 
-![User2](https://github.com/Manishn18/Society-Management/assets/87479740/e5d3de32-ad69-4c3c-ba79-bd6ef3cb0d43)
+![User2](https://github.com/Manishn18/Society-Management/assets/87479740/e5f3908c-5be8-4636-a00c-a83baf501c9e)
 
 ### Entity-Relationship diagram :- 
 Entity-Relationship Diagram: An E-R (Entity-Relationship) Diagram is used to represent the relationships between entities within the tables.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/3e30f6c5-bdb3-4c8f-9c57-bd85bcd1fbd5)
+![Screenshot 2024-05-30 030246](https://github.com/Manishn18/Society-Management/assets/87479740/334d3194-123e-4ac2-b766-22e4c8acade4)
 
 ### Database design :-
 To effectively manage and retrieve data within the system, we meticulously designed the database as part of our overall system architecture. During the analysis phase, we identified essential data elements and structures, which we then organized into a cohesive data storage and retrieval system.
@@ -80,31 +81,35 @@ Society Management System (SMS) contains <ins>7 MySQL tables</ins> :-
 
 1.) <strong><ins>tbladmin table Structure</ins> :</strong> This table store the admin login and personal Details.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/ac64c7a2-67a0-4a8b-baf4-b3f5774e6a8e).
+![Screenshot 2024-05-30 030358](https://github.com/Manishn18/Society-Management/assets/87479740/c0f899e5-54d1-4dc8-8dfb-b2241572602e)
 
 2.) <strong><ins>tblallotment table Structure</ins> :</strong> This table store the allotment detail of flats.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/5b0fb6bf-20bc-4c93-b18f-a40ec41f22fb).
+![Screenshot 2024-05-30 030407](https://github.com/Manishn18/Society-Management/assets/87479740/de684987-883b-4b4c-aacd-e958825a6b4c)
 
 3.) <strong><ins>tblbill table Structure</ins> :</strong> This table store the bill detail of flats.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/fc32f674-57a6-4ffc-9a28-3efe60e72596).
+![Screenshot 2024-05-30 030415](https://github.com/Manishn18/Society-Management/assets/87479740/c76416f6-c2f3-4336-bd0e-5431f54a6644)
 
 4.) <strong><ins>tblblocks table Structure</ins> :</strong>  This table store the blocks of society.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/1762aa9a-6963-4a1b-b58a-7abb26a51ac4)
+![Screenshot 2024-05-30 030421](https://github.com/Manishn18/Society-Management/assets/87479740/6702d3e1-3873-46f0-84c1-f055c19e5889)
 
 5.) <strong><ins>tblflat table Structure</ins>  :</strong>  This table store the flats details of society.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/af6f96db-ae6c-4307-bdde-4e526203d64e).
+![Screenshot 2024-05-30 030429](https://github.com/Manishn18/Society-Management/assets/87479740/e52b5c9e-b555-4ff6-a3f1-73c765ea2fa2)
 
 6.) <strong><ins>tblvisitor table Structure</ins> :</strong>  This table store the details of visitors who visit in flats.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/628a49b1-e664-4479-80cc-4f01a7377118).
+![Screenshot 2024-05-30 030434](https://github.com/Manishn18/Society-Management/assets/87479740/3367e026-ec5a-4c6a-a012-d2172835c7ed)
 
 7.) <strong><ins>tblcomplain table Structure :</ins></strong>  This table store the details of complains.
 
-![image](https://github.com/Manishn18/Society-Management/assets/87479740/b222620a-f0b5-4ca8-bfde-e03c4ea05e50).
+![Screenshot 2024-05-30 030439](https://github.com/Manishn18/Society-Management/assets/87479740/826ce03b-3b50-41c4-a554-e1afd0fc7509)
+
+#### Class Diagram
+
+![Screenshot 2024-05-30 030454](https://github.com/Manishn18/Society-Management/assets/87479740/24f62161-aea4-4f35-bcef-15973635c37c)
 
 <h2 id="technologies-used">Technologies used</h2>
 <ul>
@@ -132,9 +137,9 @@ Ensure you have the following software installed on your system:
 #### Step 1: Clone the Repository
 Clone the repository to your local machine using the following command:
 
-
+```
 git clone https://github.com/yourusername/Society-Management-System.git
-
+```
 
 #### Step 2: Set Up the Local Server
 <li><strong><ins>Open phpMyAdmin</ins>:</strong> Access phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser.</li>
@@ -166,9 +171,9 @@ define('DB_DATABASE', 'sms');
 #### Step 1: Clone the Repository
 Clone the repository to your local machine using the following command:
 
-
+```
 git clone https://github.com/yourusername/Society-Management-System.git
-
+```
 
 #### Step 2: Set Up the Local Server
 
@@ -194,12 +199,12 @@ git clone https://github.com/yourusername/Society-Management-System.git
 <li><strong><ins>Update Database Credentials</ins>:</strong> Ensure the database connection settings are correct:</li>
 </ul>
 
-
+```
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'sms');
-
+```
 
 ### Running the Application
 
@@ -212,3 +217,34 @@ define('DB_DATABASE', 'sms');
 #### Step 3:  Log In</ins></strong><br/>
 <li><strong><ins>Admin Login</ins>:</strong> Use the default admin credentials to log in and start exploring the application features.</li>
 </ul>
+
+<h2 id = "screenshots">Screenshots</h2>
+
+#### Homepage
+
+![Screenshot 2024-05-30 031326](https://github.com/Manishn18/Society-Management/assets/87479740/5cab86cf-0094-4efd-99c6-612999491e43)
+
+#### Admin Login
+
+![Screenshot 2024-05-30 031514](https://github.com/Manishn18/Society-Management/assets/87479740/1322dcee-490f-447f-816a-9531c2222f0b)
+
+#### Forgot Password
+
+![Screenshot 2024-05-30 031607](https://github.com/Manishn18/Society-Management/assets/87479740/9fea5d56-1ddf-4e85-975d-bce4a4cf885d)
+
+#### Dashboard
+
+![Screenshot 2024-05-30 031700](https://github.com/Manishn18/Society-Management/assets/87479740/d5cc5435-b55c-4a21-9baf-1556b287656e)
+
+#### Admin Profile
+
+![Screenshot 2024-05-30 031959](https://github.com/Manishn18/Society-Management/assets/87479740/fbdaf0e6-c876-4594-86e3-bed8989668c9)
+
+### Change Passwords
+
+![Screenshot 2024-05-30 032046](https://github.com/Manishn18/Society-Management/assets/87479740/59bee288-8f78-4f40-95f3-206cfaf4981e)
+
+### Add Flats
+
+![Screenshot 2024-05-30 032119](https://github.com/Manishn18/Society-Management/assets/87479740/bf3c07d3-b323-438b-aacf-36da132b330e)
+
